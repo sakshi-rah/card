@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>card form</title>
+    <style>
+        .card {
+            border: 1px solid black;
+            background-color: rgb(226, 200, 161);
+            padding: 20px;
+            margin: 80px;
+            border-radius: 0 100px 0 100px;
+            box-shadow: 5px 0px 10px rgb(51, 45, 45);
+            height: 400px;
+            width: 400px;
+            text-align: center;
+        }
+
+        h3 {
+            background-color: black;
+            color: aliceblue;
+            padding: 10px;
+            margin: auto;
+            width: 200px;
+            border: 1pn double red;
+        }
+
+        .pic-ngp {
+            height: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding: 10px;
+        }
+
+        .pic-ngp:hover {
+            background-color: black;
+            border-radius: 20px;
+            box-shadow: 3px 0px 8px red;
+        }
+
+        button {
+            border: 2px;
+            background-color: rgb(96, 124, 175);
+            color: black;
+            position: relative;
+            text-align: center;
+            width: 70px;
+            font-size: 20px;
+            border-radius: 15px;
+        }
+        /*small phones*/
+        @media only screen and (max-width : 600px) {
+            .card {
+                width: 100%;
+                padding: 10px;
+                margin: 20px;
+            }
+        }
+        /*medium phones*/
+        @media only screen and (max-width : 768px) and (min-width : 600px) {
+            .card {
+                width: 500px;
+                padding: 20px;
+                margin: 30px;
+            }
+        }
+       /*large phones and tablets*/
+        @media only screen and (max-width : 992px) and (min-width : 768px) {
+            .card {
+                width: 600px;
+                padding: 20px;
+                margin: 40px;
+            }
+        }
+       /*laptops*/
+        @media only screen and (max-width : 1200px) and (min-width : 992px) {
+            .card {
+                width: 800px;
+                padding: 20px;
+                margin: 50px;
+            }
+        }
+         /*Desktops*/
+         @media only screen and (min-width : 1200px) {
+            .card {
+                width: 1000px;
+                height: 500px;
+                padding: 30px;
+                margin: 80px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <DIV class="card">
+        <h3>welcome to Nagpure</h3><br>
+        <img src="nagpur.jpg" class="pic-ngp">
+        <p>
+            The city was founded in 1702 by the Gond King
+            Bakht Buland Shah of Deogarh and later became a part of the Maratha Empire under the royal Bhonsale
+            dynasty.<br>
+            <b> nagpur is a orange city . it is metro city also</b>
+        </p>
+        <a
+            href="https://www.google.com/search?q=information+about+nagpur+city+&bih=656&biw=680&hl=
+        en&sxsrf=APq-WBt6QyrKmcpJr_hkX5mUNeSVW0sJJg%3A1649687833597&ei=GT1UYvyIJKLSz7sP5ou44Ak&ved=0ahUKEwi8-b
+        6Knoz3AhUi6XMBHeYFDpwQ4dUDCA4&uact=5&oq=information+about+nagpur+city+&gs_lcp=Cgdnd3Mtd2l
+        6EAMyBAgjECcyBQgAEIAEMgYIABAWEB46BAgAEEdK
+        BAhBGABKBAhGGABQ5QRYjA9g5BdoAHACeACAAc4DiAG4F5IBCTAuMS41LjIuMpgBAKABAcgBCMABAQ&sclient=gws-wiz"><button>view</button></a>
+    </DIV>
+</body>
+
+</html>
